@@ -45,10 +45,10 @@ public class User {
     public String getEmail() {
         return email;
     }
-
     public String getPassword() {
         return password;
     }
+
 
     public int getDay() {
         return day;
@@ -128,11 +128,6 @@ public class User {
 
         public User build(){
             return new User(this.gender, this.firstname, this.lastname, this.email, this.password, this.day, this.month,this.year);
-        }
-
-
-        public void getUserFullName(){
-
         }
     }
 }

@@ -80,6 +80,16 @@ public class RegisterationPage extends  BasePage {
       click(By.xpath("//form/section/div[10]"));
       click(By.xpath("//footer/button"));
       logger.info(">>>> form submitted successfully <<<<<<<");
-      assertThat(FirstNameLastName.getText(),equalTo(expectedText));
+
+      //assertThat(FirstNameLastName.getText(),equalTo(expectedText));
+    }
+
+    @FindBy(css = "#address-link .link-item")
+    private WebElement secondAddress;
+
+    public LoggerInUserAccountPage navigateUserToSecondAddress(){
+        //click(By.css("address-link"));
+        secondAddress.click();
+        return new LoggerInUserAccountPage(getDriver());
     }
 }

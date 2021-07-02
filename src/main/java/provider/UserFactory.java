@@ -4,6 +4,7 @@ import Models.Gender;
 import Models.User;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.RandomUtils;
+import org.openqa.selenium.By;
 
 public class UserFactory{
 
@@ -11,15 +12,13 @@ public class UserFactory{
     public User registerNewUser(){
         return new User.Builder()
                 .setGender(Gender.getRandomGender())
-                .setFirstname("Nya")
-                .setLastname("Nyasha")
-                .setEmail(generateRandomText()+"@gmail.com")
-                .setPassword(generateRandomText())
+                .setFirstname("Oshikoya")
+                .setLastname("Adam")
+                .setEmail("adam@gmail.pl")
+                .setPassword("54321")
                 .setbirth(generateRamdomNumric(), generateRamdomNumric(),generateRamdomNumric())
                 .build();
     }
-
-
 
     public String generateRandomText(){
         return RandomStringUtils.random(7,true,false);
@@ -27,13 +26,6 @@ public class UserFactory{
 
     public int generateRamdomNumric(){
         return RandomUtils.nextInt(0,31);
-    }
-
-    public User alreadyRegisteredUser(){
-        return new User.Builder()
-                .setEmail("")
-                .setPassword("")
-                .build();
     }
 
 }

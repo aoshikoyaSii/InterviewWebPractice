@@ -1,5 +1,5 @@
 <configuration scan="true">
-    <property name="DEV_HOME" value="C:\\Users\\AOshikoya\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\compile-server/log"/>
+    <property name="DEV_HOME" value="C:\\Users\\AOshikoya\\IdeaProjects\\MultipleAddressesExercise/log"/>
     <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"/>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">

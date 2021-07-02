@@ -1,0 +1,17 @@
+957 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+985 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\AOshikoya\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+3301 [main] INFO  Pages.BasePage - >>>> element clicked on <<<<<<<< 
+3415 [main] INFO  BasePage.class - >>>>>>>  click element:  Sign in <<<<<<<<<
+3656 [main] INFO  BasePage.class - >>>>>>>  after click: click on:  <<<<<<<<<
+3935 [main] INFO  Pages.LoginPage - password successfully inputed
+3937 [main] INFO  Pages.BasePage - >>>> element clicked on <<<<<<<< 
+4004 [main] INFO  BasePage.class - >>>>>>>  click element: SHOW <<<<<<<<<
+4057 [main] INFO  BasePage.class - >>>>>>>  after click: click on:  <<<<<<<<<
+4057 [main] INFO  Pages.LoginPage - >>>>> click set visible password <<<<<< 
+4088 [main] INFO  BasePage.class - >>>>>>>  click element: SIGN IN <<<<<<<<<
+4545 [main] INFO  BasePage.class - >>>>>>>  after click: click on:  <<<<<<<<<
+4546 [main] INFO  Pages.LoginPage - sign in button clicked
+4547 [main] INFO  Pages.BasePage - >>>> element clicked on <<<<<<<< 
+4625 [main] INFO  BasePage.class - >>>>>>>  click element: 
+INFORMATION <<<<<<<<<
+4739 [main] INFO  BasePage.class - >>>>>>>  after click: click on:  <<<<<<<<<
